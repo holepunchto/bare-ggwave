@@ -5,6 +5,12 @@ find_package(cmake-fetch REQUIRED PATHS node_modules/cmake-fetch)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
+# ggwave is C++, share the app's C++ runtime on Android
+set(ANDROID_STL c++_shared CACHE STRING "")
+
+# 16 KB pages, which newer Android devices require
+set(ANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES ON CACHE BOOL "")
+
 project(bare_ggwave C CXX)
 
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
