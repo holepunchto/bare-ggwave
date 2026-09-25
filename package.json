@@ -1,6 +1,6 @@
 {
   "name": "bare-ggwave",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Data over sound for Bare, native ggwave bindings with custom protocols",
   "main": "index.js",
   "exports": {
