@@ -12,6 +12,7 @@
   },
   "files": [
     "package.json",
+    "NOTICE",
     "index.js",
     "index.d.ts",
     "binding.cc",

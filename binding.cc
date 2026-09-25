@@ -1,10 +1,9 @@
 #include <assert.h>
 #include <bare.h>
+#include <ggwave/ggwave.h>
 #include <js.h>
 #include <stdint.h>
 #include <string.h>
-
-#include <ggwave/ggwave.h>
 
 typedef struct {
   GGWave *handle;
